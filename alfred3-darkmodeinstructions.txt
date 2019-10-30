@@ -1,0 +1,15 @@
+if you have Alfred 3, add the following:
+
+	tell application "Alfred 3"
+		set theme "[dark theme name]"
+	end tell
+
+after the second "tell application "System Events"", and
+
+	tell application "Alfred 3"
+		set theme "[light theme name]"
+	end tell
+	
+after the third "tell application "System Events"".
+
+Replace the [light theme name] and [dark theme name] with your preferred theme, using the name as it appears in the Appearance preferences in Alfred.
