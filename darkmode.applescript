@@ -29,4 +29,3 @@ tell application "System Events"
 		key code 48 using {command down}
 	end if
 end tell
-tell application "BetterTouchTool" to refresh_widget "D0688722-9F80-492E-BD1F-6315D8A78C68"
